@@ -11,7 +11,7 @@
     .content {
       flex: 2;
       min-height: 70vh;
-      margin: 15%;
+      padding: 5%;
       display: flex;
       flex-direction: row;
       @include media-query($on-palm) {
@@ -22,7 +22,7 @@
         flex-direction: column;
       }
       .firstContent {
-        flex: 1;
+        flex: 2;
         @include media-query($on-palm) {
           margin-top: 100px;
         }
